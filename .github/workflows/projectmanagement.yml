@@ -12,7 +12,7 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@0.4.0
+      - uses: actions/add-to-project@v0.4.0
         with:
           project-url: https://github.com/orgs/getbooka/projects/1
           github-token: ${{ secrets.PAT_PROJECT_WORKFLOWS }}
